@@ -1,0 +1,11 @@
+*.swp
+.kitchen/
+.kitchen.local.yml
+Gemfile.lock
+Cheffile.lock
+.librarian/
+cookbooks
+tmp
+.vagrant
+Vagrantfile
+.bundle/

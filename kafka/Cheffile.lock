@@ -1,0 +1,54 @@
+SITE
+  remote: http://supermarket.chef.io/api/v1
+  specs:
+    apt (6.1.2)
+    build-essential (8.0.3)
+      mingw (>= 1.1)
+      seven_zip (>= 0.0.0)
+    builder (0.1.4)
+      build-essential (>= 0.0.0)
+      ssh_known_hosts (>= 0.0.0)
+    compat_resource (12.19.0)
+    discovery (0.2.2)
+    dpkg_autostart (0.2.0)
+    homebrew (4.2.0)
+    java (1.50.0)
+      apt (>= 0.0.0)
+      homebrew (>= 0.0.0)
+      windows (>= 0.0.0)
+    mingw (2.0.1)
+      seven_zip (>= 0.0.0)
+    ohai (5.1.0)
+    packagecloud (0.3.0)
+    runit (3.0.5)
+      packagecloud (>= 0.0.0)
+      yum-epel (>= 0.0.0)
+    seven_zip (2.0.2)
+      windows (>= 1.2.2)
+    ssh_known_hosts (5.2.1)
+    windows (3.1.1)
+      ohai (>= 4.0.0)
+    yum (5.0.1)
+    yum-epel (2.1.2)
+      compat_resource (>= 12.16.3)
+    zookeeperd (0.2.8)
+      apt (>= 0.0.0)
+      discovery (>= 0.2.0)
+      dpkg_autostart (>= 0.0.0)
+      java (>= 0.0.0)
+      runit (>= 1.0.0)
+      yum (>= 0.0.0)
+
+PATH
+  remote: .
+  specs:
+    kafka (0.2.8)
+      builder (>= 0.1.1)
+      zookeeperd (>= 0.1.0)
+
+DEPENDENCIES
+  apt (>= 0)
+  kafka (>= 0)
+  yum (>= 0)
+  zookeeperd (>= 0)
+
